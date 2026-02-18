@@ -1,0 +1,23 @@
+---
+# https://backstage.io/docs/features/software-catalog/descriptor-format#kind-user
+# User
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: shamashaik19
+spec:
+  profile:
+    displayName: Shama Shaik
+    email: shamashaik.eee.rymec@gmail.com
+  memberOf: [guests]
+
+---
+# Group
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: guests
+spec:
+  type: team
+  children: []
+
