@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: shamashaik19
+spec:
+  profile:
+    displayName: Shamashaik
+    email: shamashaik19@gmail.com
+  memberOf: []
+
