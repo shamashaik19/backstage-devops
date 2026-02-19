@@ -28,6 +28,5 @@ jobs:
           context: .
           file: packages/backend/Dockerfile
           push: true
-          tags: |
-            shamashaik19/backstage:latest
-            shamashaik19/backstage:${{ github.sha }}
+          tags: shamashaik19/backstage:latest
+
